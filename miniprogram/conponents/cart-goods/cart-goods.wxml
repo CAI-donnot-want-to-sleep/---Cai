@@ -1,0 +1,15 @@
+<view class='item' style="width: 745rpx; height: 285rpx; display: block; box-sizing: border-box">
+<image src='{{mphotoPath}}' class='bookpicture' bind:tap="bindtapToGoods" style="width: 240rpx; height: 241rpx; display: inline-block; box-sizing: border-box; left: 19rpx; top: 19rpx">
+</image>
+<image src='/_1icons/购物车/去结算.png'class='buutt' style="position: relative; left: 281rpx; top: 20rpx; width: 182rpx; height: 60rpx; display: inline-block; box-sizing: border-box">
+</image>
+<text class='bookname' style="position: relative; left: 296rpx; top: -218rpx">
+书名：{{mname}}
+</text>
+<text class='des' style="position: relative; left: 296rpx; top: -222rpx">
+描述:{{mdes}}
+</text>
+<text class='price' style="position: relative; left: 296rpx; top: -249rpx">
+{{mprice}}
+</text>
+</view>

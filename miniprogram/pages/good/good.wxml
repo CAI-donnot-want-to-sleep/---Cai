@@ -1,0 +1,25 @@
+
+<view 
+class="backg" 
+style="position: relative; width: 750rpx;  height: 1500rpx; box-sizing: border-box; left: 0rpx; top: 0rpx;" 
+>
+<text 
+class="words" 
+style="position: fixed; left: 0rpx; top: 156rpx">welcome to~
+</text>
+<image 
+src="/FirstIcons/咸菜 书铺.png" 
+style="position: fixed; left: 189rpx; top: 266rpx; width: 372rpx; height: 402rpx; display: block; box-sizing: border-box"
+>
+</image>
+<image 
+src="/FirstIcons/bookstore.png" 
+style="position: fixed; left: 245rpx; top: 944rpx; width: 260rpx; height: 253rpx; display: block; box-sizing: border-box"
+>
+</image>
+<image src="/FirstIcons/wx登录.png" 
+style="position: fixed; left: 154rpx; top: 750rpx; width: 442rpx; height: 142rpx; display: block; box-sizing: border-box"
+bind:tap="TapToLogin"
+>
+</image>
+</view>

@@ -1,0 +1,21 @@
+/* pages/搜索界面/搜索界面.wxss */
+input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.good-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+goods {
+  display: inline-flex;
+  width: 50%;
+}

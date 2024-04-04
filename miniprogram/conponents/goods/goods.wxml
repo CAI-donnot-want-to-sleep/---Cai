@@ -1,0 +1,14 @@
+<view class='item'>
+<image src='/icons/名片卡.png' class="back"></image>
+<image src='{{mphotoPath}}' class='bookpicture' bind:tap="bindtapToGoods">
+</image>
+<image src='/icons/加入购物车.png'class='buutt' bind:tap="bindtapToCart">
+</image>
+<text class='bookname'>
+书名：{{mname}}
+</text>
+<text class='number'>余量：{{mnumber}}</text>
+<text class='price'>
+{{mprice}}
+</text>
+</view>

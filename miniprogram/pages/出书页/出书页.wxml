@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="upload-container">
+    <image class="upload-image" src="{{imageUrl}}" mode="aspectFill" style="width: 383rpx; height: 334rpx; display: inline-block; box-sizing: border-box"></image>
+    <button class="upload-button" bindtap="chooseImage">上传图片</button>
+  </view>
+  <view class="input-container">
+    <input class="price-input" type="number" placeholder="请输入书名" bindinput="inputName"></input>
+    <view class="line"></view>
+    <input class="price-input" type="number" placeholder="请输入价格" bindinput="inputPrice"></input>
+    <view class="line"></view>
+    <textarea class="description-input" placeholder="请输入介绍" bindinput="inputDescription" style="width: 544rpx; height: 276rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"></textarea>
+    <view class="line"></view>
+    <input class="price-input" type="number" placeholder="请输入联系方式" bindinput="inputPhone"></input>
+    <view class="line"></view>
+  </view>
+
+  <image style="position: relative; left: -222rpx; top: -1209rpx; width: 234rpx; height: 174rpx; display: block; box-sizing: border-box" src="/_1icons/发布物品/把物 转起来.png" />
+  </view>
+<button class="submit-button" bindtap="submitForm" style="position: relative; left: 0rpx; top: -173rpx">提交</button>

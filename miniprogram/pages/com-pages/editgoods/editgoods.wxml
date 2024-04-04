@@ -1,0 +1,8 @@
+<view style="position: relative; width: 750rpx; background: #d3d3d3; height: 214rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"></view>
+<image style="position: relative; width: 475rpx; height: 428rpx; display: inline-block; box-sizing: border-box; left: 0rpx; top: 0rpx" src="{{mphotoPath}}"/>
+<text style="position: relative; left: -475rpx; top: 49rpx">书籍名称</text>
+<input style="width: 475rpx; height: 42rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 63rpx" auto-focus placeholder="{{mname}}" bindTap="editname"/>
+
+
+
+

@@ -1,0 +1,9 @@
+.cont1
+{
+  background: linear-gradient(#7DA6FE,#f6f6f6);
+}
+.uppt{
+  width: 30%;
+  height: 50%;
+  display: inline-block;
+}

@@ -1,0 +1,90 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "miniprogram-1",
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/跑腿页/跑腿页",
+          "pathName": "pages/跑腿页/跑腿页",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "修改商品信息",
+          "pathName": "pages/com-pages/editgoods/editgoods",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "bookshell",
+          "pathName": "pages/Bookshell/Bookshell",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "开始界面",
+          "pathName": "pages/good/good",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "商品界面",
+          "pathName": "pages/商品界面/商品界面",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/主页1/主页1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "搜索界面",
+          "pathName": "pages/搜索界面/搜索界面",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/主页4/主页4",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "pages/主页3/主页3",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "对话页",
+          "pathName": "pages/主页2/主页2",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "搜索结果界面",
+          "pathName": "pages/搜索结果界面/搜索结果界面",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

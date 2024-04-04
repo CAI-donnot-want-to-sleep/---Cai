@@ -1,0 +1,16 @@
+.bookname{
+  font-weight: 7500;
+  font-size:25px;
+  position:fixed;
+}
+.price
+{
+  font-size: 43px;
+  color:crimson;
+  font-weight: 750;
+  position:fixed;
+}
+.num{
+  color:darkkhaki;
+  position: fixed;
+}

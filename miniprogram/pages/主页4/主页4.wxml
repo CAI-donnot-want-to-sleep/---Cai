@@ -1,0 +1,34 @@
+<view style="width: 750rpx; height: 417rpx; display: block; box-sizing: border-box">
+<text class="PersonCenter" style="position: fixed; left: 35rpx; top: -53rpx; width: 210rpx; height: 105rpx; display: block; box-sizing: border-box；">
+个人中心
+</text>
+<image src='/icons/名片卡.png' style="position: relative; left: 0rpx; top: 53rpx; width: 737rpx; height: 365rpx; display: inline-block; box-sizing: border-box"></image>
+<image style="position: absolute; left: 45rpx; top: 113rpx; width: 191rpx; height: 170rpx; display: block; box-sizing: border-box" src="{{headspath}}"class="head"/>
+<text style="position: absolute; left: 278rpx; top: 114rpx;font-weight: 700;">昵称：</text>
+<text style="position: absolute; left: 349rpx; top: 114rpx; font-weight: 200">{{name}}</text>
+<text style="position: absolute; left: 478rpx; top: 114rpx;font-weight: 700;">年龄：</text>
+<text style="position: absolute; left: 558rpx; top: 114rpx; font-weight: 200">{{age}}</text>
+<text style="position: absolute; left: 278rpx; top: 164rpx; font-weight: 700">专业：</text>
+<text style="position: absolute; left: 349rpx; top: 164rpx; font-weight: 200">{{major}}</text>
+<text style="position: absolute; left: 278rpx; top: 214rpx; font-weight: 700">电话：</text>
+<text style="position: absolute; left: 349rpx; top: 214rpx; font-weight: 200">{{phone}}</text>
+<text style="position: absolute; left: 278rpx; top: 264rpx; font-weight: 700">常用地址：</text>
+<text style="position: absolute; left: 414rpx; top: 264rpx; font-weight: 200">{{address}}</text>
+<text style="position: absolute; left: 278rpx; top: 314rpx; font-weight: 700">vx：</text>
+<text style="position: absolute; left: 349rpx; top: 314rpx; font-weight: 200">{{email}}</text>
+</view>
+
+<view style="position: absolute; width: 750rpx; height: 848rpx; display: block; box-sizing: border-box; left: 0rpx; top: 461rpx">
+
+
+
+
+  <image style="position: absolute; width: 337rpx; height: 231rpx; display: block; box-sizing: border-box; left: 39rpx; top: -77rpx" src="/icons/前往书架.svg" bind:tap="GotoBookshell"/>
+
+  <image style="position: absolute; left: 375rpx; top: -77rpx; width: 337rpx; height: 231rpx; display: block; box-sizing: border-box" src="/icons/编辑资料.svg" bind:tap="ChangeSelf"/>
+  </view>
+
+
+
+
+

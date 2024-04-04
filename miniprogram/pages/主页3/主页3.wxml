@@ -1,0 +1,12 @@
+<text>购物车页</text>
+<scroll-view 
+style="width: 709rpx; height: 1160rpx; box-sizing: border-box; position: relative; left: 21rpx; top: 41rpx; display: block"
+>
+ <view class='good-container'
+ style="width: 709rpx; box-sizing: border-box; position: relative; display: block; left: 0rpx; top: 39rpx; height: 174rpx"
+  >
+  <cart-goods id="card-goods" wx:for="{{ids}}" idstr="{{item}}" ></cart-goods>
+  </view>
+ </scroll-view>
+
+

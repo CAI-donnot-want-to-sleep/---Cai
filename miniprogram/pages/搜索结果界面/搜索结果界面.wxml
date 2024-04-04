@@ -1,0 +1,18 @@
+<view>搜索结果</view>
+<input style="width: 750rpx; height: 69rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 25rpx" bindinput="bindInput" />
+<icon style="position: relative; left: 679rpx; top: -39rpx; width: 58rpx; height: 65rpx; display: block; box-sizing: border-box" type="search" size="33"></icon>
+
+
+<scroll-view 
+style="width: 709rpx; height: 1654rpx; box-sizing: border-box; position: relative; left: 21rpx; top: -18rpx; display: block"
+>
+ <view class='good-container'
+ style="width: 100%;  box-sizing: border-box; position: relative; display: block"
+  >
+  <goods wx:for="{{ids}}" idstr="{{item}}" ></goods>
+  </view>
+ </scroll-view>
+
+
+
+

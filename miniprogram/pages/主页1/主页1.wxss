@@ -1,0 +1,57 @@
+/* pages/主页1/主页1.wxss */
+
+.cont1
+{
+  background: linear-gradient(#7DA6FE,#f6f6f6);
+}
+
+.goods {
+  display: flex 0 0 48%;
+  width: 48%;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #8a7f7f; /* 可根据需要调整颜色 */
+  margin-bottom: 10%;
+}
+.item
+{
+  width: 100%;
+  height: 350px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input 
+{
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+.putbook
+{
+/* 出书 */
+
+/* 自动布局子元素 */
+position: static;
+left: 25.18px;
+top: 27px;
+width: 161.82px;
+height: 132.73px;
+opacity: 1;
+	
+z-index: 0;
+}
+.good-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

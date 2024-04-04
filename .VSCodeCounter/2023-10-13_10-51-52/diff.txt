@@ -1,0 +1,81 @@
+Date : 2023-10-13 10:51:52
+Directory : d:\CodeForEverthing\codeforwepro\miniprogram-1
+Total : 33 files,  414 codes, 79 comments, 57 blanks, all 550 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |         16 |        348 |         76 |         54 |        478 |
+| wxml       |          5 |         28 |          0 |          3 |         31 |
+| CSS        |          5 |         27 |          3 |          1 |         31 |
+| JSON       |          3 |          7 |          0 |         -1 |          6 |
+| XML        |          4 |          4 |          0 |          0 |          4 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                        | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                           |         33 |        414 |         79 |         57 |        550 |
+| miniprogram                                                                                 |         33 |        414 |         79 |         57 |        550 |
+| miniprogram (Files)                                                                         |          2 |          2 |          0 |          0 |          2 |
+| miniprogram\conponents                                                                      |          3 |         16 |          0 |          1 |         17 |
+| miniprogram\conponents\goods                                                                |          3 |         16 |          0 |          1 |         17 |
+| miniprogram\icons                                                                           |          4 |          4 |          0 |          0 |          4 |
+| miniprogram\pages                                                                           |         24 |        392 |         79 |         56 |        527 |
+| miniprogram\pages\Bookshell                                                                 |          4 |         44 |         30 |         18 |         92 |
+| miniprogram\pages\ChangeSelf                                                                |          4 |         44 |         30 |         18 |         92 |
+| miniprogram\pages\good                                                                      |          2 |         -6 |          1 |         -6 |        -11 |
+| miniprogram\pages\个人资料设置页面                                                                  |          1 |         19 |          1 |          1 |         21 |
+| miniprogram\pages\主页1                                                                       |          1 |         17 |          2 |          3 |         22 |
+| miniprogram\pages\主页2                                                                       |          1 |         18 |          1 |          2 |         21 |
+| miniprogram\pages\主页3                                                                       |          1 |         18 |          1 |          2 |         21 |
+| miniprogram\pages\主页4                                                                       |          3 |        116 |          7 |         10 |        133 |
+| miniprogram\pages\出书页                                                                       |          1 |         26 |          1 |          1 |         28 |
+| miniprogram\pages\商品界面                                                                      |          1 |         18 |          1 |          2 |         21 |
+| miniprogram\pages\搜索界面                                                                      |          1 |         19 |          1 |          2 |         22 |
+| miniprogram\pages\搜索结果界面                                                                    |          2 |         22 |          1 |          2 |         25 |
+| miniprogram\pages\支付页面                                                                      |          1 |         18 |          1 |          0 |         19 |
+| miniprogram\pages\收书页                                                                       |          1 |         19 |          1 |          1 |         21 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                    | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\app.json                         | JSON       |          1 |          0 |         -1 |          0 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\app.ts                           | TypeScript |          1 |          0 |          1 |          2 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\conponents\goods\goods.ts        | TypeScript |          2 |          0 |          0 |          2 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\conponents\goods\goods.wxml      | wxml       |          1 |          0 |          0 |          1 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\conponents\goods\goods.wxss      | CSS        |         13 |          0 |          1 |         14 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\icons\前往书架.svg                   | XML        |          1 |          0 |          0 |          1 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\icons\头像5.svg                    | XML        |          1 |          0 |          0 |          1 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\icons\收书.svg                     | XML        |          1 |          0 |          0 |          1 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\icons\编辑资料.svg                   | XML        |          1 |          0 |          0 |          1 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\Bookshell\Bookshell.json   | JSON       |          3 |          0 |          0 |          3 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\Bookshell\Bookshell.ts     | TypeScript |         39 |         29 |         18 |         86 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\Bookshell\Bookshell.wxml   | wxml       |          2 |          0 |          0 |          2 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\Bookshell\Bookshell.wxss   | CSS        |          0 |          1 |          0 |          1 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\ChangeSelf\ChangeSelf.json | JSON       |          3 |          0 |          0 |          3 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\ChangeSelf\ChangeSelf.ts   | TypeScript |         39 |         29 |         18 |         86 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\ChangeSelf\ChangeSelf.wxml | wxml       |          2 |          0 |          0 |          2 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\ChangeSelf\ChangeSelf.wxss | CSS        |          0 |          1 |          0 |          1 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\good\good.ts               | TypeScript |         -6 |          1 |          1 |         -4 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\good\good.wxml             | wxml       |          0 |          0 |         -7 |         -7 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\个人资料设置页面\个人资料设置页面.ts       | TypeScript |         19 |          1 |          1 |         21 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\主页1\主页1.ts                 | TypeScript |         17 |          2 |          3 |         22 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\主页2\主页2.ts                 | TypeScript |         18 |          1 |          2 |         21 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\主页3\主页3.ts                 | TypeScript |         18 |          1 |          2 |         21 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\主页4\主页4.ts                 | TypeScript |         83 |          6 |          0 |         89 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\主页4\主页4.wxml               | wxml       |         23 |          0 |         10 |         33 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\主页4\主页4.wxss               | CSS        |         10 |          1 |          0 |         11 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\出书页\出书页.ts                 | TypeScript |         26 |          1 |          1 |         28 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\商品界面\商品界面.ts               | TypeScript |         18 |          1 |          2 |         21 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\搜索界面\搜索界面.ts               | TypeScript |         19 |          1 |          2 |         22 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\搜索结果界面\搜索结果界面.ts           | TypeScript |         18 |          1 |          2 |         21 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\搜索结果界面\搜索结果界面.wxss         | CSS        |          4 |          0 |          0 |          4 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\支付页面\支付页面.ts               | TypeScript |         18 |          1 |          0 |         19 |
+| d:\CodeForEverthing\codeforwepro\miniprogram-1\miniprogram\pages\收书页\收书页.ts                 | TypeScript |         19 |          1 |          1 |         21 |
+| Total                                                                                       |            |        414 |         79 |         57 |        550 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

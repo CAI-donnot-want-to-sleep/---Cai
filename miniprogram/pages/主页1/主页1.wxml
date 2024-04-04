@@ -1,0 +1,43 @@
+<!--pages/主页1/主页1.wxml-->
+  <view 
+  class="cont1"
+  style="position: relative; width: 750rpx; height: 220rpx; left: 0rpx; top: 0rpx; display: inline-block; box-sizing: border-box"
+  style="width: 750rpx; height: 249rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"
+  >
+
+  </view>
+  <input
+   style="width: 750rpx; height: 69rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 25rpx" 
+   bindtap="handleIconTap"
+   placeholder="请输入搜索关键词" />
+  <icon 
+  style="position: relative; left: 679rpx;top: -39rpx; width: 58rpx; height: 65rpx; display: block; box-sizing: border-box"
+   type="search" 
+   size="33"
+   >
+   </icon>
+   <scroll-view 
+style="width: 709rpx; height: 1265rpx; box-sizing: border-box; position: relative; left: 21rpx; top: -16rpx; display: block"
+>
+<view ><image style="width: 347rpx; height: 205rpx; display: inline-block; box-sizing: border-box; position: relative; left: 9rpx; top: -20rpx" 
+class="putbook" 
+src="/_1icons/主页面/点击发布图标.png" 
+bindtap="handleIconTapputbook"/>
+ <image style="width: 347rpx; height: 205rpx; display: inline-block; box-sizing: border-box; left: 17rpx; top: -20rpx; position: relative" class="inbook" 
+ src="/_1icons/主页面/跑腿图标.png"
+ bindtap="handleIconTapinbook"
+ /></view>
+ <view class='good-container'
+ style="width: 709rpx; box-sizing: border-box; left: 0rpx; top: 386rpx; height: 870rpx"
+  >
+  <goods id="goods" wx:for="{{ids}}" idstr="{{item}}"  style="width: 347rpx; height: 1265rpx; display: block; box-sizing: border-box"></goods>
+  </view>
+ </scroll-view>
+
+ 
+
+
+
+
+
+

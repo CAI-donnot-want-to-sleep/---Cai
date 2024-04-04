@@ -1,0 +1,8 @@
+
+<input style="width: 680rpx; height: 69rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 25rpx" bindinput="bindInput" bindconfirm="bindTap" />
+<icon style="position: relative; left: 681rpx; top: -44rpx; width: 70rpx; height: 65rpx; display: block; box-sizing: border-box" type="search" size="33" bind:tap="bindTap" ></icon>
+<view style="position: relative; width: 750rpx; background: #d3d3d3; height: 65rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+</view>
+
+
+

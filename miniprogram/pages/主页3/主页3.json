@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cart-goods":"/conponents/cart-goods/cart-goods"
+  }
+}

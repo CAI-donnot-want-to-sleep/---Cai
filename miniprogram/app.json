@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/主页1/主页1",
+    "pages/good/good",
+    "pages/搜索结果界面/搜索结果界面",
+    "pages/主页2/主页2",
+    "pages/主页3/主页3",
+    "pages/主页4/主页4",
+    "pages/搜索界面/搜索界面",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/聊天界面/聊天界面",
+    "pages/跑腿页/跑腿页",
+    "pages/出书页/出书页",
+    "pages/个人资料设置页面/个人资料设置页面",
+    "pages/支付页面/支付页面",
+    "pages/商品界面/商品界面",
+    "pages/Bookshell/Bookshell",
+    "pages/ChangeSelf/ChangeSelf",
+    "pages/com-pages/editgoods/editgoods"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7DA6FE",
+    "navigationBarTitleText": "咸菜书铺",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "goods": "/conponents/goods/goods",
+    "shop-goods":"/conponents/shop-goods/shop-goods"
+  },
+  "cloud": true,
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/主页1/主页1",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-filling.png"
+      },
+      {
+        "pagePath": "pages/主页2/主页2",
+        "text": "对话",
+        "iconPath": "icons/对话.png",
+        "selectedIconPath": "icons/对话-实色.png"
+      },
+      {
+        "pagePath": "pages/主页3/主页3",
+        "text": "购物车",
+        "iconPath": "icons/购物车.png",
+        "selectedIconPath": "icons/3.1购物车-选中.png"
+      },
+      {
+        "pagePath": "pages/主页4/主页4",
+        "text": "个人中心",
+        "iconPath": "icons/个人.png",
+        "selectedIconPath": "icons/个人_2.png"
+      }
+    ]
+  }
+}

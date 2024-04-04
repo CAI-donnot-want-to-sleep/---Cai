@@ -1,0 +1,11 @@
+<view>
+<view class="cont1">
+<view class="uppt" style="width: 664rpx; height: 443rpx; display: inline-block; box-sizing: border-box">
+<image  src='/_1icons/跑腿/发布 跑腿.png' bind:tap="taptoup" style="width: 267rpx; height: 218rpx; display: inline-block; box-sizing: border-box">
+</image>
+</view>
+</view>
+<scroll-view>
+
+</scroll-view>
+</view>

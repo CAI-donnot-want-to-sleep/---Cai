@@ -1,0 +1,19 @@
+<view style="width: 750rpx; height: 1391rpx; display: block; box-sizing: border-box"><image style="width: 750rpx; height: 894rpx; display: inline-block; box-sizing: border-box; left: 0rpx; top: 84rpx" src="{{photoPath}}" />
+<text style="left: 46rpx; top: 926rpx; position: fixed" >书籍名：</text>
+<text style="left: 160rpx; top: 914rpx; position: fixed" class='bookname'>《{{name}}》</text>
+<text style="left: 142rpx; top: 1139rpx; position: fixed" class='price'>{{price}}
+</text>
+<image src='/icons/加入购物车.png' style="width: 341rpx; height: 210rpx; display: inline-block; box-sizing: border-box; left: 410rpx; top: 281rpx; position: relative">
+</image>
+<text style="position: relative; left: -299rpx; top: -79rpx" class='num'>余量：{{number}}
+</text>
+<image src='/icons/返回.png' size="40" style="position: relative; left: 26rpx; top: -1092rpx; width: 67rpx; height: 56rpx; display: inline-block; box-sizing: border-box" bind:tap="back"></image>
+</view>
+
+
+
+
+
+
+
+
